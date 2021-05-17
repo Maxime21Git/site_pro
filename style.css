@@ -33,6 +33,8 @@ img.cover-profile{
     left: 50%;
     margin-left: -50px;
     margin-top: 50px;
+    border: 3px solid white;
+    border-radius: 100%;
 }
 
 h1 {
@@ -240,6 +242,11 @@ img.portfolio {
     display: none;
 }
 
+.section-frame img{
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width:767px) {
     img.cover-profile{
@@ -249,7 +256,7 @@ img.portfolio {
     
     h1 {
         font-size: 38px;
-        margin-top: 6x;
+        margin-top: 6px;
         margin-bottom: 0;
     }
     
